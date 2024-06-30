@@ -16,3 +16,18 @@ Here's how the program works:
     4.If the user chooses to encrypt or decrypt a message, they are prompted to enter the message and shift value. The program then calls the appropriate function to perform the encryption or decryption, and prints the result.
 
 You can copy this code to a file (e.g. T1_caesar_cipher.py) and run it using Python (e.g. python T1_caesar_cipher.py). Then, follow the prompts to encrypt or decrypt a message!
+
+
+Task No.3:- Password Complexity Chacker 
+
+    A Tool that assesses the strength of a password based on criteria such as lengh,presence of uppercase and lowercase letters,numbers, and special characters. Provide feedback to users on the passwords's strength.
+
+Here's how the program works:
+
+    1.The assess_password_strength function takes a password as input, and returns a string indicating the password's strength. It calculates a score for each of the criteria mentioned above, and then determines the overall strength based on the total score.
+
+    2.The main function is the entry point of the program. It presents a menu to the user, allowing them to choose between assessing a password or quitting the program.
+    
+    3.If the user chooses to assess a password, they are prompted to enter the password. The program then calls the assess_password_strength function to determine the password's strength, and prints the result.
+
+You can save this code to a file (e.g. T3_password-strength.py) and run it using Python (e.g. python T3_password-strength.py). Then, follow the prompts to assess a password's strength!
